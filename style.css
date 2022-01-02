@@ -407,16 +407,14 @@ a {
 
 
 /*start team section*/
-
+section#ourTeam {
+    overflow: hidden;
+}
 .teamImage {
     max-width: 100%;
     width: 530px;
 }
-.teamImage img {
-    width: 530px;
-    float: left;
-    padding-right: 50px;
-}
+
 .teamDetails {
     width: 530px;
     float: left;
@@ -632,11 +630,6 @@ section#blogPost {
 }
 /*end blogPost section*/
 
-
-
-
-
-
 /*start priceplan section*/
 
 
@@ -756,10 +749,6 @@ section#pricePlan {
 /*end priceplan section*/
 
 
-
-
-
-
 /*start aideas section*/
 section#aideas {
     padding: 0px;
@@ -845,8 +834,6 @@ section#aideas {
 }
 
 /*end aideas section*/
-
-
 
 
 /*start team section*/
@@ -1115,14 +1102,12 @@ a#learnMoreBtn {
 		transition:.3s;
 }
 
-
 /*end projects section*/
 
 
 
 
 /*start latestnews section*/
-
 
 section#LatestNews {
     height: 696px;
