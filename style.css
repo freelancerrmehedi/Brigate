@@ -414,7 +414,11 @@ section#ourTeam {
     max-width: 100%;
     width: 530px;
 }
-
+.teamImage img {
+    width: 530px;
+    float: left;
+    padding-right: 50px;
+}
 .teamDetails {
     width: 530px;
     float: left;
