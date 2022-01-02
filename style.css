@@ -407,9 +407,7 @@ a {
 
 
 /*start team section*/
-section#ourTeam {
-    overflow: hidden;
-}
+
 .teamImage {
     max-width: 100%;
     width: 530px;
