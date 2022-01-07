@@ -486,7 +486,6 @@ ul.teamFleftUl li:hover {
 }
 .teamContactBtn {
 	margin-top: 348px;
-    width: 151px;
 	transition:.8s;
 }
 .teamContactBtn a {
@@ -496,12 +495,12 @@ ul.teamFleftUl li:hover {
     padding: 16px 32px;
     border-radius: 3px;
     font-weight: 600;
-	transition:.5s;
+    transition:.5s;
 }
 .teamContactBtn a:hover{
 	background-color: #252525;
-    border-color: #252525;
-    color: #fff;
+        border-color: #252525;
+        color: #fff;
 	transition:.3s;
 }
 /*end team section*/
@@ -569,11 +568,6 @@ i.fas.fa-charging-station{
     color: white;
 }
 /*end whychoosUs section*/
-
-
-
-
-
 
 
 /*start blogPost section*/
@@ -836,13 +830,11 @@ section#aideas {
     margin-right: 30px;
     position: relative;
 }
-
 /*end aideas section*/
 
 
+
 /*start team section*/
-
-
 .teamTitle h2 {
 	text-align: center;
     font-size: 40px;
@@ -870,19 +862,16 @@ section#aideas {
     color: #656565;
     font-weight: 400;
 }
-
 .teamPersons {
     overflow: hidden;
     margin-bottom: 50px;
 }
-
 .singleperson {
     width: 23%;
     float: left;
     margin-right: 30px;
     overflow: hidden;
 }
-
 .singleperson:last-child {
     margin-right: 0px;
 }
@@ -892,7 +881,6 @@ section#aideas {
 	font-size: 20px;
 	padding-top: 20px;
 }
-
 .personInfo p {
     width: 100%;
     text-align: center;
@@ -910,18 +898,14 @@ section#aideas {
     width: 100%;
     margin-bottom: 0px;
 }
-
 .personImage {
 	margin: 0px;
 	width: 100%;
 	height: 258px;
 }
-
 .joinTeamButton {
     text-align: center;
 }
-
-
 .joinTeamButton button {
     padding: 13px 25px;
     background-color: #252525;
@@ -932,29 +916,24 @@ section#aideas {
     display: inline-block;
     transition: all ease .238s;
     font-family: -webkit-pictograph;
-	border: 0px;
+    border: 0px;
 }
 .joinTeamButton button:hover{
 	cursor: pointer;
 	background-color: #fb5200;
-
 }
-
-
 .socialIcons {
     width: 100%;
     position: relative;
     text-align: center;
     margin-top: -55px;
 }
-
 .socialIcons a {
     background: yellow;
     padding: 7px;
     border-radius: 100%;
 	transition:.3s;
 }
-
 .socialIcons i:hover {
     color: #333;
 
@@ -965,7 +944,6 @@ section#aideas {
 	font-size:14px;
 	transition:.3s;
 }
-
 .socialIcons a:first-child {
 	background: #3b5998;
 	opacity:0;
@@ -1009,11 +987,7 @@ section#aideas {
 .singleperson:hover{
 	background:yellow;
 }
-
-
 /*end team section*/
-
-
 
 
 
@@ -1025,7 +999,7 @@ section#aideas {
 .projectsWrapper {
     overflow: hidden;
     column-count: 3;
-	 	height: 600px;
+    height: 600px;
 }
 
 .singleProject {
@@ -1053,12 +1027,11 @@ section#aideas {
     left: 0px;
     width: 100%;
     padding: 40px 27px 10px;
-	  background: linear-gradient(to top, #000000b3, transparent 160px);
-	  transition:.5s;
+    background: linear-gradient(to top, #000000b3, transparent 160px);
+    transition:.5s;
 }
-
 .projectMeta p {
-	width: 285px;
+    width: 285px;
     margin-bottom: 5px;
     text-decoration: underline;
     font-size: 16px;
@@ -1067,7 +1040,7 @@ section#aideas {
 }
 
 .projectMeta h3 {
-	width: 100%;
+    width: 100%;
     font-size: 20px;
     color: #fff;
 }
@@ -1075,44 +1048,39 @@ i.fas.fa-arrow-right {
     margin-left: 10px;
     font-size: 13px;
 }
-
 a#learnMoreBtn {
-		color: white;
+    color: white;
     transform: translateX(-55px);
     display: block;
     position: relative;
     opacity: 0;
     bottom: 24px;
-		transition: .3s;
+    transition: .3s;
 }
 
 .singleProject:hover #learnMoreBtn {
-		color: white;
+    color: white;
     transform: translateX(0px);
     display: block;
     position: relative;
     opacity: 1;
     bottom: 22px;
-		transition:.3s;
-		margin-top:30px;
+    transition:.3s;
+    margin-top:30px;
 }
 .singleProject:hover .projectInfo {
-		padding: 40px 27px 13px;
+    padding: 40px 27px 13px;
     background: linear-gradient(to top, black, transparent 200px);
     transition: .5s;
 }
 .singleProject:hover .projectMeta {
     padding-bottom: 15px;
-		transition:.3s;
+    transition:.3s;
 }
-
 /*end projects section*/
 
 
-
-
 /*start latestnews section*/
-
 section#LatestNews {
     height: 696px;
     padding-bottom: 0px;
@@ -1179,7 +1147,6 @@ section#LatestNews {
 	cursor:pointer;
 	color:#fb5200;
 }
-
 .newsTitle p {
     width: 100%;
     font-size: 16px;
@@ -1188,7 +1155,6 @@ section#LatestNews {
     margin: 20px 0px;
 	cursor:auto;
 }
-
 .newsTitle a {
    color:#333;
    font-family: 'Oswald';
@@ -1198,7 +1164,6 @@ section#LatestNews {
 	cursor:pointer;
 	color:#fb5200;
 }
-
 /*end latestnews section*/
 
 
@@ -1244,7 +1209,6 @@ section#subscribe {
 	border-radius: 40px;
 	border: 0px;
 }
-
 button.bt-submit {
     padding: 15px 36px;
     transform: translateX(-57px);
@@ -1266,11 +1230,9 @@ button.bt-submit {
 .subsBoxSingle:first-child {
     margin-left: 15px;
 }
-
 button.bt-submit:hover {
     cursor: pointer;
 }
-
 .subsFollowIcons a {
 	border: 1px solid #fff;
     border-radius: 50%;
@@ -1287,13 +1249,10 @@ button.bt-submit:hover {
 	color: black;
 	background:white;
 }
-
-
 /*end subscribe section*/
 
 
 /*start footer section*/
-
 .fboxWrapper {
     margin-bottom: 15px;
     color: white;
@@ -1453,5 +1412,4 @@ footer#footer {
 .copyrightMenu a {
     color: #ababab;
 }
-
 /*end footer section*/
